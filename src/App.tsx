@@ -1,8 +1,9 @@
 import React from 'react';
 import './index.sass';
+import ExampleBuilder from './components/builder/ExampleBuilder';
 
 function App() {
-    return <div>приложение</div>;
+    return <ExampleBuilder />;
 }
 
 export default App;
