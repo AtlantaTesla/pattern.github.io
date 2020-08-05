@@ -6,4 +6,4 @@
    1. [Прототип](https://refactoring.guru/ru/design-patterns/prototype)    
    1. [Одиночка](https://refactoring.guru/ru/design-patterns/singleton)
 
-#### [ссылка на приложение](./build)
+#### [ссылка на приложение](https://atlantatesla.github.io/pattern.github.io/build/)

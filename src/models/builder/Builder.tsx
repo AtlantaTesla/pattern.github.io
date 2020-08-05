@@ -36,11 +36,7 @@ export class BuilderForm extends Builder implements IBuilder {
     };
 
     public addTextField = (props?: any) => {
-        const component = (
-            <Row>
-                <TextField {...props} />
-            </Row>
-        );
+        const component = <TextField {...props} />;
         this.componentList.push(component);
         return this;
     };
@@ -57,12 +53,8 @@ export class BuilderManual extends Builder implements IBuilder {
         return this;
     };
 
-    addTextField = (props?: any) => {
-        const component = (
-            <Row>
-                <Alert severity="info" {...props} />
-            </Row>
-        );
+    addTextField = (props: any) => {
+        const component = <Alert severity="info">{props.helper}</Alert>;
         this.componentList.push(component);
         return this;
     };
